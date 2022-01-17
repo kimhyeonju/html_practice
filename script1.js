@@ -82,41 +82,6 @@ function clicktd(e){
             
         }
     } 
-    //가로
-    for(var i=0; i< colline;i++){
-        if(col[tr_index][i]=="1"){
-           
-        }
-        count++;
-    }
-    //세로
-    for(var j=0; j< colline;j++){
-        if(col[j][td_index]=="1"){
-        }
-        count++;
-
-    }
-    //대각선_왼쪽에서 오른쪽
-    for(var i=0; i< colline;i++){
-        for(var j=0; j< colline;j++){
-            if(col[i][j]=="1"){
-            }
-            count++;
-        }
-    }
-    //대각선_오른쪽에서 왼쪽
-    for(var i=0; i< colline;i++){
-        for(var j=colline-1; j<= 0;j--){
-            if(col[i][j]=="1"){
-            }
-            count++;
-        }
-    }
-
-    if(count>=4){
-        document.getElementById("line").innerHTML = "총"+ count +"개의 줄이 완성되었습니다.";
-        tdtag.removeEventListener("click", clicktd);
-    }
 
     
     
