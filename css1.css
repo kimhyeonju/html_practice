@@ -1,0 +1,42 @@
+.table2{
+    border: 1px solid black;
+    font-family: "“arial, sans-serif";
+    text-align: center;
+    border-collapse: collapse;
+}
+#modal{
+    display: none;
+    width: 400px;
+    height: 150px;
+    background-color: skyblue;
+    border: 2px outset;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 1;
+}
+#content{
+    padding: 30px;
+    font-size: 11px;
+}
+#spy{
+    overflow: hidden;
+}
+.table1{
+    font-family: "“arial, sans-serif";
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    width: 110px;
+    float: left;
+
+}
+
+#coke{
+    overflow: hidden;
+}
+
+
+#input2{
+    width: 60px;
+    text-align: center;
+}
