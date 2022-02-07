@@ -143,5 +143,5 @@ function enroll_table(){
     cart_in.addEventListener("click",cart);
 }
 function cart(){
-    var checkbox = "input[name=check]:checked"
+    
 }
